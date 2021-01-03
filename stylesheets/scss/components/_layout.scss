@@ -1,0 +1,49 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.clearfix:after,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+em {
+  padding: 0 5px;
+  font-style: unset;
+  background: #EDF4EE;
+  color: #2A8356;
+}
+
+
